@@ -1,0 +1,52 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+        margin: 0;
+        padding: 0;
+}
+
+.hero{
+    height: 100vh;
+    position: relative;
+    z-index:-1;
+}
+
+.paralax-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.paralax-img:nth-child(1){
+    background: url(pexels-eberhard-grossgasteiger-1287145.jpg)no-repeat bottom;
+    background-size: cover;
+}
+.paralx-img:nth-child(2){
+    background: url(pexels-pixabay-34107.jpg)no-repeat bottom;
+    background-size: cover;
+}
+.header{
+   
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+    letter-spacing: 1em;
+    font-size: 100px;
+}   
+.content{
+
+    background-color: rgb(27, 27, 27);
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center ;
+}
+.lnadscape{
+    padding-bottom: 20px;
+}
+.content-body{
+    position: relative;
+}
